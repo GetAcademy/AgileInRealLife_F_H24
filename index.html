@@ -12,35 +12,91 @@
 <script>
     const scrumRoles = [
         {
-            title: 'Senior Developer',
+            title: 'Developer',
             role: 'No scrum role',
-            mandatoryMeetings: [],
-            optionalMeetings: [],
-            responsibilities: [],
-            notes: []
+            mandatoryMeetings: [
+                'Daily Standup',
+                'Sprint Retrospective',
+                'Sprint Planning',
+                'Sprint Demo'
+            ],
+            optionalMeetings: [
+                'Backlog Refinement'
+            ],
+            responsibilities: [
+                'Utføre oppgaver',
+                'Være aktiv i planlegging/estimering',
+                'Vise frem hva man har gjort',
+                'Evaluere/være kritisk til eget arbeid',
+                'Code review'
+            ],
+            notes: [
+                'Sørger for at oppgaver blir utført',
+                'Bidrar der de kan'
+            ]
         },
         {
             title: 'Senior Developer',
             role: 'Scrum Master',
-            mandatoryMeetings: [],
+            mandatoryMeetings: [
+                'Daily Standup',
+                'Sprint Retrospective',
+                'Sprint Planning',
+                'Sprint Demo',
+                'Backlog Refinement'
+            ],
             optionalMeetings: [],
-            responsibilities: [],
-            notes: []
+            responsibilities: [
+                'Modererer',
+                'Sørge for at scrum-prosessene blir oppretthold',
+                'Utføre oppgaver',
+                'Være aktiv i planlegging/estimering',
+                'Vise frem hva man har gjort',
+                'Evaluere/være kritisk til eget arbeid',
+                'Code review'
+            ],
+            notes: [
+                'Ansvarlig for å sørge for at scrum fungerer i teamet'
+            ]
         },
         {
             title: 'Product Owner',
             role: 'Product Owner',
-            mandatoryMeetings: [],
-            optionalMeetings: [],
-            responsibilities: [],
-            notes: []
+            mandatoryMeetings: [
+                'Sprint Demo',
+                'Sprint Planning',
+                'Backlog Refinement',
+                'Sprint Retrospective'
+            ],
+            optionalMeetings: [
+                'Daily Standup'
+            ],
+            responsibilities: [
+                'Sørge for at produktet dekker kundens behov',
+                'Ansvarlig for produktet',
+                'Skrive PBI\'er',
+                'Vedlikeholde backlog'
+            ],
+            notes: [
+                'Ikke en teknisk rolle'
+            ]
         },
         {
             title: 'Senior Developer',
             role: 'Project Manager',
-            mandatoryMeetings: [],
-            optionalMeetings: [],
-            responsibilities: [],
+            mandatoryMeetings: [
+                'Produkt kickoff',
+                'Prosjektstatusmøter'
+            ],
+            optionalMeetings: [
+                'Daily Scrum',
+                'Sprint Planning'
+            ],
+            responsibilities: [
+                'Risikovurdering',
+                'Koordinger mellom team',
+                'Organisering (men indirekte)'
+            ],
             notes: []
         }
     ];
